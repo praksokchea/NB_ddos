@@ -26,7 +26,7 @@ pkg install python -y
 pkg install python3 -y
 git clone https://github.com/praksokchea/NB_ddos.git
 cd NB_ddos
-python3 Nb-ddos.py
+python3 NB-DDos.py
 ```
 
 ## For Debian-based 
@@ -34,19 +34,19 @@ python3 Nb-ddos.py
 sudo apt install git
 git clone https://github.com/praksokchea/NB_ddos.git
 cd NB_ddos
-python3 Nb-ddos.py
+python3 NB-DDos.py
 ```
 
 ## For Windows
 ```powershell
 git clone https://github.com/praksokchea/NB_ddos.git
 cd NB_ddos
-python3 Nb-ddos.py
+python3 NB-DDos.py
 ```
 
 ## Usage
 ```
-python3 Nb-ddos.py -s [sizeOFpayload] -u [targetURL]
+python3 NB-DDos.py -s [sizeOFpayload] -u [targetURL]
 ```
 
-Example: python3 Nb-ddos.py -s 1000000 -u https://target.com
+Example: python3 NB-DDos.py -s 1000000 -u https://target.com
